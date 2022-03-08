@@ -1,2 +1,59 @@
-# desafioDioLayoutInstagram22
-Desafio DIO | Bootcamp HTML Web Developer | Layout Instagram | Março 2022
+<h1 align="center">
+  <img alt="Logo Instagram" title="#NextLevelWeek" src="./images/logo.png" />
+</h1>
+
+<p align="center"> Status <☕>Finalizado<☕/> HTML | CSS </p>
+
+# Desafio DIO | Bootcamp HTML Web Developer | Layout Instagram | Março 2022
+
+### Desafio 01
+
+- [x] Reproduzir a tela de login do Instagram com HTML & CSS FlexBox
+
+
+## 📁 Acessibilidade:
+
+- Para ler os códigos fonte, basta acessá-los diretamente nesse repositório.     
+
+- Para visualizar a page, clique no link abaixo com o botão do meio *scroll* ou com o botão direito do mouse para abri-la em uma nova guia.
+
+
+- Link:  [![Netlify Status](https://api.netlify.com/api/v1/badges/c5cf2eb0-1b9c-4b7f-91cc-851325d6821f/deploy-status)](https://debh-valois-desafio-capgemini-1-escada.netlify.app/)
+
+
+## :hammer_and_wrench: Tecnologias Utilizadas:
+
+- Para a estrutura da page & linkagem *HTML5*.
+
+- Para a estilização do layout *CSS3 com FlexBox*.
+
+- Para deployer e repositório *Git* & *GitHub*.
+
+- Tudo foi editado e rodado no IDE *VSCode*. 
+
+
+O desafio levou 1 dia para ficar pronto entre: passo-a-passo da aula, adaptação da interface, organização deployers e readme.
+
+
+## :octocat: A Autora: 
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="./images/autora.jpeg" width="100px;" alt="Retrato"/><br>
+        <sub>
+          <b>Debh Valois</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<a href="https://www.linkedin.com/in/debhvaloispsy/" alt="LinkedIn" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white">
+</a>
+
+<a href="https://wa.me/message/ONHPRA62USWYK1" alt="WhatsApp" target="_blank">
+<img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/5584981430120"/>
+</a>

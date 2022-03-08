@@ -1,0 +1,78 @@
+<!-- Desafio DIO | HTML Web Developer | Layout Instagram
+     Debh Valois | 08/03/2022 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Layout Instagram</title>
+</head>
+
+<body>
+
+    <!-- CONTEÚDO -->
+    <div class="instagram-wrapper">
+
+        <!-- COLUNA ESQUERDA - 2 CELULARES -->
+        <div class="instagram-phone">
+            <div>
+                <img class=phone src="./images/celularPreto.png" type="png">
+            </div>
+            <div>
+                <img class=phoneBlack src="./images/celular.png" alt="celular">
+            </div>
+        </div>
+
+        <!-- COLUNA DIREITA - LOGIN -->
+        <div class="instagram-continue">
+
+            <!-- BOX DE CIMA -->
+            <div class="group">
+                <div>
+                    <img src="./images/logo.png" class="instagram-logo" alt="instagram logo">
+                </div>
+                <div class="profile-photo">
+                    <img src="./images/Perfil.jpeg" alt="foto de perfil">
+                </div>
+                <div>
+                    <input type="email" placeholder="Telefone, nome de usuário ou email">
+                </div>
+                <div>
+                    <input type="senha" placeholder="Senha">
+                </div>
+                <div>
+                    <button type="submit">Entrar</button>
+                </div>
+                <div class="facebook">
+                    <img src="./images/iconFace.png" alt="ícone facebook">
+                    <a href="#" class="faceLetra">Entrar com o Facebook</a>
+                </div>
+                <div>
+                    <a href="#" class="instagram-logout">Esqueceu a senha?</a>
+                </div>
+            </div>
+
+            <!-- BOX DO MEIO -->
+            <div class="group">
+                <p>
+                    <span class="not-account">Não tem uma conta?</span>
+                    <a href="#" class="link-blue">Cadastre-se</a>
+                </p>
+            </div>
+
+            <!-- BOX DE BAIXO -->
+            <div class="get-the-app">
+                <p class="get-app">Obtenha o aplicativo.</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

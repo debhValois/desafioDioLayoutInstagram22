@@ -1,0 +1,275 @@
+/* Desafio DIO | HTML Web Developer | Layout Instagram | Debh Valois | 08/03/2022 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* ZERA TEXT DOS MEUS a */
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243); /* CINZA GELO */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left; /* JOGAR TODO CONTEÚDO PARA O CENTRO */
+    box-sizing: border-box;
+}
+
+/* CONTEÚDO */
+
+.instagram-wrapper {
+    display: flex; /* ALINHAMENTO EM LINHAS */
+    align-items: center; /* NA VERTICAL ELE VAI FICAR NO CENTRO */
+    justify-content: start; /* NA HORIZONTAL ELE COMEÇA DA ESQ. P DIR. */
+    width: 60%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* COLUNA ESQUERDA - CELULARES */
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42%;
+    height: 87vh;
+}
+
+/* IMAGEM DOs CELULARES DENTRO DA COLUNA */
+
+.phoneBlack{
+    display: flex;
+    height: 84vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.phone {
+    display: flex;
+    height: 85vh;
+    position: relative;
+    padding-left: 59%;
+    padding-bottom: 28px;
+    overflow: hidden;
+}
+
+/* COLUNA DIREITA - LOGIN */
+
+/* ***** ***** BOX DE CIMA ***** */
+
+.instagram-continue {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column; /* DEIXA OS EIXOS AO CONTRÁRIO */
+    width: 35%;
+    height: 87vh;
+    margin-left: 170px;
+}
+
+/* ***** ***** BOX DO MEIO ***** */
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; /* DEIXA OS EIXOS AO CONTRÁRIO */
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0; /* TANTO EM CIMA QTO EMBAIO - ZERO DOS LADOS */
+    border: 1px solid lightgray;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* SELETOR DO CSS QUE APLICAS P OS FILHOS DESSE ELEMENTO - NA ORDEM */
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+/* LOGO DO INSTAGRAM */
+.instagram-logo {
+    height: 3rem;
+}
+
+/* FOTO DO PERFIL */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* BORDA EM CIRCULO */
+    overflow: hidden; /* P IMG NAO EXCEDER PARA FORA DA DIV */  
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+/* LOGIN */
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    outline: none;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 30px;
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: #1ca1fa91;
+}
+
+/* LOGOUT */
+.instagram-logout {
+    color: rgb(3, 32, 95);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.not-account {
+    color: rgb(54, 46, 46);
+    font-size: 13px;
+}
+
+.link-blue {
+    color: #0095f6;
+    font-size: 13px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    margin-bottom: 10px;
+    margin-top: 5px; 
+}
+
+.faceLetra{
+    color: rgb(3, 32, 95);
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.facebook img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* ***** ***** BOX DE BAIXO ***** */
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    color: rgb(54, 46, 46);
+    margin-bottom: 30px;    
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* ÍCONES */
+
+/* SELETOR DO CSS QUE APLICAS P OS FILHOS DO ELEMENTO ACIMA - NA ORDEM */
+.app-download:nth-child(1) {
+    background-image: url('./images/apple.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./images/googleplay.png');
+}
+
+/* MEDIA QUERIES = DEIXAR RESPONSIVA PARA VARIOS TAMANHOS DE TELAS */
+
+/* QUANDO A TELA TIVER TANTOS 1024 PX - TIPO NOTEBOOK */
+@media (max-width: 1024px) {
+
+    /* MEU CONTEÚDO DEVERÁ OCUPAR 90% DA TELA*/
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+/* QUANDO A TELA TIVER 650 PX - TIPO CELULAR  */
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    /* A COLUNA CELULAR + FOTO SOMEM - SÓ IMPORTA A COLUNA DO LOGIN */
+    .instagram-phone {
+        display: none;
+    }
+    .profile-photo {
+        display: none;
+    }
+
+    /* A COLUNA DO LOGIN FICA COM 100% */
+    .instagram-continue {
+        width: 100%;
+    }
+    
+    /* DEIXA TRANSPARENTE A BORDA DO BOX DO MEIO */
+    .group {
+        border: 1px solid transparent;
+    }
+}
