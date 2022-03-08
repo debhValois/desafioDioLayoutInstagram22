@@ -17,9 +17,7 @@
 
 - Para visualizar a page, clique no link abaixo com o botão do meio *scroll* ou com o botão direito do mouse para abri-la em uma nova guia.
 
-
-- Link:  [![Netlify Status](https://api.netlify.com/api/v1/badges/c5cf2eb0-1b9c-4b7f-91cc-851325d6821f/deploy-status)](https://debh-valois-desafio-capgemini-1-escada.netlify.app/)
-
+[Link](https://debhvalois.github.io/desafioDioLayoutInstagram22/)
 
 ## :hammer_and_wrench: Tecnologias Utilizadas:
 
