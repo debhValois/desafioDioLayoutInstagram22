@@ -11,11 +11,11 @@
 - [x] Reproduzir a tela de login do Instagram com HTML & CSS FlexBox
 
 
-## :inspectocat: Acessibilidade:
+## 📁 Acessibilidade:
 
 - Para ler os códigos fonte, basta acessá-los diretamente nesse repositório.     
 
-- Para visualizar o layout clique nesse [Link](https://debhvalois.github.io/desafioDioLayoutInstagram22/) , com o *scroll* ou com o botão direito do mouse para abri-la em uma nova guia.
+- Para visualizar o layout clique nesse [Link](https://debhvalois.github.io/desafioDioLayoutInstagram22/) - com o *scroll* ou com o botão direito do mouse para abri-la em uma nova guia.
 
 ## :hammer_and_wrench: Tecnologias Utilizadas:
 
