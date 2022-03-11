@@ -1,21 +1,27 @@
 <h1 align="center">
-  <img alt="Logo Instagram" title="#NextLevelWeek" src="./images/logo.png" />
+  <img alt="Logo Instagram" title="Layout Instagram" src="./images/logo.png" />
 </h1>
 
 <p align="center"> Status <☕>Finalizado<☕/> HTML | CSS </p>
 
 # Desafio DIO | Bootcamp HTML Web Developer | Layout Instagram | Março 2022
 
-### Desafio 01
+### Descrição
 
-- [x] Reproduzir a tela de login do Instagram com HTML & CSS FlexBox
+- [x] Reproduzir a tela de login do Instagram com HTML & CSS FlexBox (estática).
 
 
 ## 📁 Acessibilidade:
 
 - Para ler os códigos fonte, basta acessá-los diretamente nesse repositório.     
 
-- Para visualizar o layout clique nesse [Link](https://debhvalois.github.io/desafioDioLayoutInstagram22/) - com o *scroll* ou com o botão direito do mouse para abri-la em uma nova guia.
+- Para acessar a page, clique na imagem abaixo com o *scroll* ou com o botão direito do mouse para abrir em nova aba:
+
+
+<a href="https://debhvalois.github.io/desafioDioLayoutInstagram22/" alt="Layout Instagram" target="_blank">
+<img src="images/imgReadme.jpeg"/>
+</a>
+
 
 ## :hammer_and_wrench: Tecnologias Utilizadas:
 
@@ -28,7 +34,7 @@
 - Tudo foi editado e rodado no IDE *VSCode*. 
 
 
-O desafio levou 1 dia para ficar pronto entre: passo-a-passo da aula, adaptação da interface, organização deployers e readme.
+O desafio levou 1 dia para execução entre: passo-a-passo da aula, adaptação da interface, refatoração, organização deployers e readme.
 
 
 ## :octocat: A Autora: 
